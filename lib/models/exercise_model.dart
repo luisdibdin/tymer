@@ -1,9 +1,8 @@
-import 'package:workout_timer/models/workout_model.dart';
-
-class ExerciseModel extends WorkoutModel {
+class ExerciseModel {
   String exerciseName = '';
   num length;
   bool timed = true;
+  int positionInRound;
 
-  ExerciseModel({this.exerciseName, this.length, this.timed});
+  ExerciseModel({this.exerciseName, this.length, this.timed, this.positionInRound});
 }
